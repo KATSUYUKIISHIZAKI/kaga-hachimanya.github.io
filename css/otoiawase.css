@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+
+body {
+ line-height: 1;
+}
+
+ol, ul {
+ list-style: none;
+}
+
+blockquote, q {
+ quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+/*ここまでリセットCSS*/
+
+.clearfix {
+ zoom:1;
+}
+
+.clearfix:after {
+ content: "";
+ display: block;
+ clear: both;
+}
+
+#container {
+ background-image:url(../images/otoiawase_images/bg_otoiawase.jpg);
+ width: 1280px;
+ height:781px;
+ margin: 0 auto;
+}
+
+
+#side_bar  {
+ background-color: rgba(255,255,255,0.7);
+ float: left;
+ width: 200px;
+ height: 781px;
+ position: fixed;
+}
+
+h1 {
+ text-align: center;
+ margin: 20px;
+}
+
+#gnavi {
+ margin-top:40px;
+}
+ 
+
+
+#gnavi li a {
+ display: block;
+ border-top: dotted 1px #666;
+ width: 200px;
+ height: 50px;
+ line-height: 65px;
+ text-align: center;
+}
+
+#gnavi li a:hover {
+ background-color:rgba(255,255,255,0.8);
+}
+
+#head {
+ width: 1080px;
+ height: 200px;
+ padding-top: 100px;
+}
+
+
+
+#head h2 {
+ margin-top:-5px;
+ margin-left:400px;
+ float:left;
+}
+
+#head h3,p {
+ margin-left: 650px;
+}
+
+#head h3 {
+ color:#666;
+ font-size:120%;
+ font-weight: bold;
+}
+
+
+#head p {
+ margin-top: 20px;
+ font-size: 90%;
+ color:#666;
+ line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contents { 
+ width:480px;
+ height:400px;
+ margin-left:451px;
+ color:#666;
+ font-size:90%;
+}
+
+table {
+ border-collapse: collapse;
+}
+
+td {
+ border: 1px solid #ccc;
+ padding: 5px;
+ font-size: 90%;
+ color:#666;
+}
+
+td.l_Cel {
+ width:150px;
+}
+
+#contents p {
+ width:180px;
+ height:30px;
+ margin-left:150px;
+ margin-top:20px;
+}
+
+textarea {
+ margin-top: 20px;
+}
+
+
+
+         

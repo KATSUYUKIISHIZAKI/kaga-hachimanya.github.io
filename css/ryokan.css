@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+
+body {
+ line-height: 1;
+}
+
+ol, ul {
+ list-style: none;
+}
+
+blockquote, q {
+ quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+/*ここまでリセットCSS*/
+
+.clearfix {
+ zoom:1;
+}
+
+.clearfix:after {
+ content:"";
+ display:block;
+ clear:both;
+}
+
+#container {
+ background-image:url(../images/stay_images/3.png);
+ width: 1280px;
+ height:1050px;
+ margin: 0 auto;
+}
+
+#bg {
+ background-image:url(../images/stay_images/ryokan_bg.png);
+ width: 1280px;
+ height:904px;
+ margin: 0 auto;
+ margin-top:-180px;
+ }
+
+#side_bar {
+ background-color:rgba(255,255,255,0.7);
+ float:left;
+ width:200px;
+ height:904px;
+ position:fixed;
+}
+
+h1 {
+ text-align:center;
+ margin:20px;
+}
+
+#gnavi {
+ margin-top:40px;
+}
+ 
+
+
+#gnavi li a {
+ display:block;
+ border-top:dotted 1px #fff;
+ width:200px; 
+ height:50px;
+ line-height:65px;
+ text-align:center;
+}
+
+#gnavi li a:hover {
+ background-color:rgba(255,255,255,0.8);
+}
+
+
+
+#text {
+  margin-left:250px;
+  padding:10px;
+}
+
+
+
+

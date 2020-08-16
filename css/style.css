@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*ここまでリセットCSS*/
+
+.clearfix{
+		zoom:1;
+}
+
+.clearfix:after{
+		content:"";
+		display:block;
+		clear:both;
+}
+
+#container {
+  background-color:#333;
+  position:relative;
+	width: 1280px;
+  height:1125px;
+	margin: 0 auto;
+}
+
+#bg        {
+  background-image: url(images/index_images/wagasa.jpg);
+           
+  width: 100%;
+  height:100%;
+  display:block;
+  margin: 0 auto;}
+
+
+
+
+#bar     {
+          background-color: rgba(0,0,0,0.7);
+          width:1280px;
+          height:250px;
+          position:absolute;
+          top:480px;
+          z-index:1000;}
+
+#menu      {margin-left:70px;}
+
+#menu img   {margin-top:20px;}
+
+
+#menu li a  {float:left;
+             border-right:dotted 1px #fff;
+             width:70px;
+             height:250px;
+             text-align:center;}
+
+
+#menu li a:hover  {background-color: rgba(0,0,0,0.6);}
+
+
+
+
+
+
+
+#company     {
+              width:600px;
+              height:250px;
+              margin-left:680px;
+              margin-top:px;}
+
+
+#company  li {float:left;}
+
+#logomark{margin:45px 45px 0 0;}
+
+
+#under        {margin-top:30px;}
+
+#gazou        {margin-left:70px;}
+
+.photo        {float:left;
+               margin-right:30px;
+               }
+.photo h5     {font-size:14px;
+               color:#fff;}
+
+.photo h6 a   {margin-left:95px;
+              font-size:10px;
+              color:#fff;}
+
+
+.photo  a:hover{
+               opacity:0.8;}
+
+ 
+#map img       {width:125px;
+                height:140px;
+                 float:left;
+                 margin-top:0px;
+                margin-left:30px;}
+
+#map img:hover{
+               opacity:0.3;}
+
+#adress        {margin-left:20px;
+                color:#fff;
+                float:left;}
+
+#adress h2     {margin-bottom:10px;
+                font-weight:bold;
+                font-size:16px;}
+
+#adress p     {margin-bottom:10px;
+               font-size:14px} 
+
+#footer       {
+               clear:both; 
+               text-align:center;
+               margin-top:250px;
+               color:#fff;
+}

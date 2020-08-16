@@ -1,0 +1,329 @@
+@charset "utf-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*ここまでリセットCSS*/
+
+.clearfix{
+  zoom:1;
+}
+
+.clearfix:after {
+  content:"";
+  display: block;
+  clear: both;
+}
+
+#container {
+  width: 1280px;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+#side_bar {
+  background-color:rgba(0,0,0,0.9);
+  float: left;
+  width: 200px;
+  height: 904px;
+  position: fixed;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+
+#gnavi {
+  margin-top: 40px;
+}
+
+#gnavi li a {
+  display: block;
+  border-top: dotted 1px #fff;
+  width: 200px;
+  height: 50px;
+  line-height: 60px;
+}
+
+#gnavi li a img {
+  margin-left: 10px;
+}
+
+#gnavi li a:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+article {
+  width: 1080px;
+  margin-left: 200px;
+}
+
+#one {
+  width: 1080px;
+  height: 250px;
+  background-color:#fff;
+  border: solid 1px #666;
+}
+
+#left_text {
+  float: left;
+  width: 540px;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+#one h3 {
+  margin-left:30px;
+}
+
+#one p {
+  margin-left: 30px;
+  margin-top: 50px;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+#one span {
+  font-size: 10px;
+  margin-right: 30px;
+}
+
+#one small {
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+#one a {
+  margin-left: 240px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000;
+}
+
+#one ul { 
+  float: right;
+  width: 540px;
+  height: 250px;
+}
+
+#one ul li {
+  float:left;
+}
+
+#sam {
+  margin-top:42px;
+  margin-left:10px; 
+}
+
+#image {
+  margin-top: 25px;
+  margin-left: 25px;
+  height: 200px;
+  border: solid 1px #333;
+}
+
+
+
+
+
+
+/*ここまでone***************************************/
+
+
+
+
+
+
+#two       {
+  width:1080px;
+  height:250px;
+  background-color:#000;}
+
+#left_text  {
+   float:left;
+   width:540px;}
+
+#two h3    {
+  margin-left:30px;
+    color:#fff;}
+
+#two p     {
+  margin-left:30px;
+  margin-top:50px;
+  color:#fff;
+  font-size:18px;}
+
+#two span  {
+  font-size:10px;
+  margin-right:30px;}
+
+#two small {
+  font-size:13px;
+  margin-right:5px;}
+
+#two  a    {
+  margin-left:240px;
+  color:#fff;
+  font-size:14px;
+}
+
+#two ul    {
+  float:right;
+  width:540px;
+  height:250px;
+ }
+
+#two ul li {
+  float:left;
+  }
+
+
+
+
+/*ここまでtwo**************************************/
+
+#three       {
+  width:1080px;
+  height:250px;
+  background-color:#fff;}
+
+#left_text  {
+   float:left;
+   width:540px;}
+
+#three h3    {margin-left:30px;
+    color:#000;}
+
+#three p     {margin-left:30px;
+  margin-top:50px;
+  color:#000;
+  font-size:18px;}
+
+#three span  {
+  font-size:10px;
+  margin-right:30px;}
+
+#three small {
+  font-size:13px;
+  margin-right:5px;}
+
+#three  a    {
+  margin-left:240px;
+  color:#000;
+  font-size:14px;
+}
+
+#three ul    {
+  float:right;
+  width:540px;
+  height:250px;
+ }
+
+#three ul li {
+  float:left;
+  }
+
+
+
+
+/*ここまでthree**************************************/
+
+#four       {width:1080px;
+  height:250px;
+  background-color:#000;}
+
+#left_text  {
+   float:left;
+   width:540px;}
+
+#four h3    {margin-left:30px;
+    color:#fff;}
+
+#four p     {margin-left:30px;
+  margin-top:50px;
+  color:#fff;
+  font-size:18px;}
+
+#four span  {
+  font-size:10px;
+  margin-right:30px;}
+
+#four small {
+  font-size:13px;
+  margin-right:5px;}
+
+#four  a    {
+  margin-left:240px;
+  color:#fff;
+  font-size:14px;
+}
+
+#four ul    {
+  float:right;
+  width:540px;
+  height:250px;
+ }
+
+#four ul li {float:left;
+  }
+
+
+/*ここまでfour**************************************/
+
+ 
